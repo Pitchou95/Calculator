@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body #fullheight {
+    min-height: 100% !important;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container {
+    height: 10%;
+    background-color: black;
+    color: white;
+}
+
+.result {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: rgb(255, 255, 255);
+    height: 39%;
+}
+
+.result {
+    margin-right: 60px;
+    font-size: 210%;
+    justify-self: flex-end;
+}
+
+.buttons {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    height: 210px;
+    width: 210px;
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
+}
+
+.persent {
+    background-color: #a5a5a5;
+    border: none;
+    color: black;
+}
+
+.item1 {
+    background-color: #a5a5a5;
+    border: none;
+    color: white;
+}
+
+.operators {
+    background-color: #ff9f0a;
+}
+
+.number,
+.comma {
+    background-color: #343434;
+    border: none;
+}
+
+.negative .clear {
+    color: black;
+}
+
+.itemZero {
+    background-color: #343434;
+    border: none;
+    width: 325px;
+    border-radius: 135px;
+    grid-column: span 2;
+}
+
+#input {
+    display: block;
+    font-size: 210px;
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: right;
+    margin-right: 5%;
+    width: 100%;
+}
